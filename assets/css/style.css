@@ -187,20 +187,26 @@ h3 {
 }
 
 @media screen and (max-width: 980px) {
-    .main1, .sidebar1 {
+    h1 {
+        margin-left: 5%;
+    }
+    
+    .main1, .main3, .sidebar1, .sidebar3 {
         width: 90%;
         margin: 5%;
     }
 
     .main2 {
-        width: 75%;
-        margin: 2.5%;
+        width: 50%;
+        margin: 5%;
     }
 
     .sidebar2 {
-        width: 20%;
-        margin: 2.5%;
+        width: 30%;
+        margin: 5%;
     }
+
+}
 
 @media screen and (max-width: 768px) {
     header {
@@ -224,6 +230,8 @@ h3 {
         padding: 5%;
     }
 
+}
+
 @media screen and (max-width: 640px) {
     header {
         position: static;
@@ -245,15 +253,11 @@ h3 {
     #about {
         border: none;
     }
-
-    #portfolio {
-        border: none;
-    }
-
+    
     .main1, .main2, .main3, .sidebar1, .sidebar2, .sidebar3 {
         width: 90%;
         margin: 5%;
-        padding: 5%;
+        padding: auto;
     }
 
     #profile {
@@ -262,6 +266,7 @@ h3 {
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 150%;
     }
+
 }
