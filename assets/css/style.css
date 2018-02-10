@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/dust_scratches/dust_scratches.png");
@@ -9,7 +13,6 @@ body {
     float: left;
     width: 100%;
     background-color: #ffffff;
-    padding: 50px 0px 0px 0px;
     border-bottom: 2px solid #cccccc;
 }
 
@@ -19,16 +22,15 @@ h1 {
     color: white;
     background-color: #4aaaa5;
     text-align: center;
-    padding: 20px;
+    padding: 1.5%;
     float: left;
     margin-left: 20%;
-    margin-bottom: 0px;
 }
 
 .pages {
     margin-right: 15%;
     float: right;
-    padding: 5px;
+    padding: 2%;
 }
 
 a {
@@ -59,7 +61,7 @@ a {
     border-right: 1px solid #cccccc;
 }
 
-.main {
+.main1, .main2, .main3 {
     float: left;
     width: 590px;
     margin: 50px 40px 50px 20%;
@@ -137,7 +139,7 @@ textarea {
     border: 1px solid #4aaaa5;
 }
 
-.sidebar {
+.sidebar1, .sidebar2, .sidebar3 {
     float: left;
     width: 250px;
     margin-top: 50px;
@@ -182,4 +184,84 @@ h3 {
     padding: 25px 0px;
     border-top: 10px solid #4aaaa5;
     font-size: 75%;
+}
+
+@media screen and (max-width: 980px) {
+    .main1, .sidebar1 {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .main2 {
+        width: 75%;
+        margin: 2.5%;
+    }
+
+    .sidebar2 {
+        width: 20%;
+        margin: 2.5%;
+    }
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: 5%;
+        padding: 3%;
+    }
+
+    .pages {
+        float: none;
+        padding: 3%;
+        margin: 0;
+    }
+
+    .main1, .main2, .main3, .sidebar1, .sidebar2, .sidebar3 {
+        width: 90%;
+        margin: 5%;
+        padding: 5%;
+    }
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        width: 100%;
+        margin: 0;
+        font-size: 100%;
+    }
+
+    .pages {
+        float: left;
+        margin-left: 20%;
+    }
+
+    #about {
+        border: none;
+    }
+
+    #portfolio {
+        border: none;
+    }
+
+    .main1, .main2, .main3, .sidebar1, .sidebar2, .sidebar3 {
+        width: 90%;
+        margin: 5%;
+        padding: 5%;
+    }
+
+    #profile {
+        float: none;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
 }
