@@ -79,6 +79,14 @@ h2 {
     border-bottom: 2px solid #cccccc;
 }
 
+/*#aboutMe {
+    border-radius: 200px;
+    width: 200px;
+    border: 2px solid grey;
+    text-align: center;
+    padding: 80px 5px;
+}*/
+
 #profile {
     margin: 0px 10px 5px 0px;
     float:left;
@@ -97,12 +105,12 @@ h2 {
     position: relative;
     text-align: center;
     color: white;
-    margin: 20px;
+    margin: 10px;
 }
 
 .image {
     height: 175px;
-    width: 255px;
+    width: 245px;
 }
 
 .game {
