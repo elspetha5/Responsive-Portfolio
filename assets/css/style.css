@@ -104,7 +104,6 @@ h2 {
     float: left;
     position: relative;
     text-align: center;
-    color: white;
     margin: 10px;
 }
 
@@ -119,6 +118,18 @@ h2 {
     width: 100%;
     height: 30px;
     padding-top: 3%;
+    color: white;
+}
+
+.github {
+    float: left;
+    background-color: #36807c;
+    color: white;
+    text-align: center;
+    width: 245px;
+    height: 20px;
+    font-size: 70%;
+    padding-top: 2%;
 }
 
 form {
